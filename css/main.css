@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*************************
+GENERAL
+*************************/
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	max-width: 100%;
+}
+#wrapper {
+margin-top: 80px;
+text-align: center;
+max-width: 100%;
+padding: 0 5%;
+}
+
+li {
+	font-size: 1em;
+}
+
+p {
+	text-align: center;
+}
+.languages {
+	margin: 0 5px;
+	color: blue;
+}
+
+div {
+	max-width: 100%;
+	text-align: center;
+	padding: 20px 0;
+}
+/*************************
+NAVIGATION
+*************************/
+
+
+nav {
+	padding: 10px 20px;
+	margin: 0 15px;
+	text-align: right;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+nav li a {
+	padding-left: 15px 
+}
+
+nav li button {
+	font-weight: bold;
+	border-style: none;
+	margin-top: -7px;
+	color: white;
+	background: blue;
+	padding: 10px 10px;
+}
+
+#apps-icon {
+	position: relative;
+	top: 7px;
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+/*************************
+LOGO
+*************************/
+
+
+
+
+/*************************
+FORM
+*************************/
+form {
+	text-align: center;
+}
+
+input{
+	height: 30px;
+	width: 60%;
+}
+
+button {
+	color: black;
+	background: #f2f2f2;
+	margin: 20px 10px;
+	border-style: solid;
+	border-color: silver;
+	padding: 5px 5px;
+}
+
+#search {
+	background: url('../img/mic.jpg') no-repeat right;
+}
+
+/*************************
+LANGUAGES TAB
+*************************/
+
+
+
+/*************************
+FOOTER
+*************************/
+
+footer {
+	font-weight: lighter;
+	position: fixed;
+	bottom: 0px;
+	clear: both;
+	height: 40px;
+	width: 100%;
+	color: darkgray;
+	background: #f2f2f2;
+}
+footer a {
+	margin: 30px 20px;
+}
+footer li {
+	text-align: right;
+	float: left;
+}
+
+#primary {
+	float: left;
+}
+
+#secondary {
+	float: right;
+}
