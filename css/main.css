@@ -65,7 +65,11 @@ img {
 #wrapper {
 margin-top: 80px;
 text-align: center;
+<<<<<<< HEAD
 max-width: 100%;
+=======
+max-width: 940px;
+>>>>>>> 36e967221611423e769f66c5c1b81796129d2462
 padding: 0 5%;
 }
 
@@ -82,7 +86,10 @@ p {
 }
 
 div {
+<<<<<<< HEAD
 	max-width: 100%;
+=======
+>>>>>>> 36e967221611423e769f66c5c1b81796129d2462
 	text-align: center;
 	padding: 20px 0;
 }
@@ -131,6 +138,7 @@ nav li button {
 LOGO
 *************************/
 
+}
 
 
 
